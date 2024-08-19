@@ -1,0 +1,56 @@
+name: payit
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10+1
+
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/music_app.png"
+  android: true
+  ios: true
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/music_app.png"
+  adaptive_icon_background: "#191919"
+
+min_sdk_android: 21
+
+flutter_lints:
+riverpod_generator:
+build_runner:
+custom_lint:
+riverpod_lint:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit/Outfit-Bold.ttf
+    - family: Sofia Pro
+      fonts:
+        - asset: assets/fonts/Outfit/Outfit-Medium.ttf
+        - asset: assets/fonts/Outfit/Outfit-Regular.ttf
