@@ -39,7 +39,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      width: 150.86,
+                      width: 120.86,
                       height: 31.38,
                       decoration: BoxDecoration(
                         color: Color(0xff0A0A0A),
@@ -123,7 +123,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     height: 50,
                     decoration: BoxDecoration(
                       color: Color(0xFFFFF48B),
-                      borderRadius: BorderRadius.circular(12),
+                      borderRadius: BorderRadius.circular(25),
                     ),
                     child: Center(
                       child: Text(
@@ -142,7 +142,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     height: 50,
                     decoration: BoxDecoration(
                       color: Color(0xFF0F0F0F),
-                      borderRadius: BorderRadius.circular(12),
+                      borderRadius: BorderRadius.circular(25),
                       border: Border.all(
                         color: Color(0xFFFFF48B),
                         width: 1.0,
